@@ -46,18 +46,18 @@ return {
    -- },
 
    -- tab bar
-   enable_tab_bar = false,
+   enable_tab_bar = true,
    hide_tab_bar_if_only_one_tab = false,
    use_fancy_tab_bar = false,
-   tab_max_width = 25,
+   tab_max_width = 36,
    show_tab_index_in_tab_bar = true,
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- cursor
-   -- default_cursor_style = "BlinkingBlock",
-   -- cursor_blink_ease_in = "Constant",
-   -- cursor_blink_ease_out = "Constant",
-   -- cursor_blink_rate = 700,
+   default_cursor_style = "BlinkingBlock",
+   cursor_blink_ease_in = "Constant",
+   cursor_blink_ease_out = "Constant",
+   cursor_blink_rate = 700,
 
    -- window
    adjust_window_size_when_changing_font_size = false,
