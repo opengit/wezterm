@@ -15,7 +15,8 @@ return {
 
    -- color scheme
    -- colors = colors,
-   color_scheme = "Gruvbox dark, medium (base16)",
+   -- color_scheme = "Gruvbox dark, medium (base16)",
+   color_scheme = "hardhacker",
 
    -- background
    -- window_background_opacity = 1.00,
@@ -45,9 +46,9 @@ return {
    -- },
 
    -- tab bar
-   enable_tab_bar = true,
+   enable_tab_bar = false,
    hide_tab_bar_if_only_one_tab = false,
-   use_fancy_tab_bar = true,
+   use_fancy_tab_bar = false,
    tab_max_width = 25,
    show_tab_index_in_tab_bar = true,
    switch_to_last_active_tab_when_closing_tab = true,
@@ -60,18 +61,20 @@ return {
 
    -- window
    adjust_window_size_when_changing_font_size = false,
-   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
+   -- window_decorations = "INTEGRATED_BUTTONS|RESIZE",
+   -- window_decorations = "INTEGRATED_BUTTONS",
+   window_decorations = "RESIZE",
    -- integrated_title_button_style = "Windows",
-   integrated_title_button_style = "Gnome",
+   -- integrated_title_button_style = "Gnome",
    integrated_title_button_color = "auto",
    integrated_title_button_alignment = "Right",
    initial_cols = 120,
    initial_rows = 50,
    window_padding = {
-     left = '0cell',
-     right = '0cell',
-     top = '0cell',
-     bottom = '0cell',
+      left = '0cell',
+      right = '0cell',
+      top = '0cell',
+      bottom = '0cell',
    },
    window_close_confirmation = 'AlwaysPrompt',
    window_frame = {

@@ -2,14 +2,26 @@ local wezterm = require("wezterm")
 
 -- Inspired by https://github.com/wez/wezterm/discussions/628#discussioncomment-1874614
 
-local GLYPH_SEMI_CIRCLE_LEFT = ""
+-- local GLYPH_SEMI_CIRCLE_LEFT = ""
+-- local GLYPH_SEMI_CIRCLE_RIGHT = ""
+-- local GLYPH_CIRCLE = ""
+-- local GLYPH_ADMIN = "ﱾ"
+--
 -- local GLYPH_SEMI_CIRCLE_LEFT = utf8.char(0xe0b6)
-local GLYPH_SEMI_CIRCLE_RIGHT = ""
 -- local GLYPH_SEMI_CIRCLE_RIGHT = utf8.char(0xe0b4)
-local GLYPH_CIRCLE = ""
 -- local GLYPH_CIRCLE = utf8.char(0xf111)
-local GLYPH_ADMIN = "ﱾ"
 -- local GLYPH_ADMIN = utf8.char(0xfc7e)
+
+-- local GLYPH_SEMI_CIRCLE_LEFT = ""
+-- local GLYPH_SEMI_CIRCLE_RIGHT = ""
+-- local GLYPH_CIRCLE = utf8.char(0xf111)
+-- local GLYPH_ADMIN = utf8.char(0xf49c)
+
+local GLYPH_SEMI_CIRCLE_LEFT = ""
+-- local GLYPH_SEMI_CIRCLE_RIGHT = ""
+local GLYPH_SEMI_CIRCLE_RIGHT = ""
+local GLYPH_CIRCLE = utf8.char(0xf111)
+local GLYPH_ADMIN = utf8.char(0xf49c)
 
 local M = {}
 
@@ -133,7 +145,6 @@ M.setup = function()
    end)
 end
 
-return M
 
 -- local CMD_ICON = utf8.char(0xe62a)
 -- local NU_ICON = utf8.char(0xe7a8)
@@ -158,3 +169,5 @@ return M
 -- local SOLID_LEFT_MOST = utf8.char(0x2588)
 -- local SOLID_RIGHT_ARROW = utf8.char(0xe0bc)
 -- local ADMIN_ICON = utf8.char(0xf49c)
+
+return M
