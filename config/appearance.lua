@@ -6,16 +6,17 @@ return {
    term = "xterm-256color",
    --
    -- OpenGL, WebGpu or Software
-   -- animation_fps = 60,
-   -- max_fps = 60,
+   animation_fps = 60,
+   max_fps = 60,
    -- front_end = 'OpenGL',
-   -- front_end = 'WebGpu',
-   -- webgpu_power_preference = 'HighPerformance',
+   front_end = 'WebGpu',
+   webgpu_power_preference = 'HighPerformance',
    --
 
    -- color scheme
    -- colors = colors,
    -- color_scheme = "Gruvbox dark, medium (base16)",
+   -- color_scheme = "Dracula (Official)",
    color_scheme = "hardhacker",
 
    -- background
@@ -62,10 +63,10 @@ return {
    -- window
    adjust_window_size_when_changing_font_size = false,
    -- window_decorations = "INTEGRATED_BUTTONS|RESIZE",
-   -- window_decorations = "INTEGRATED_BUTTONS",
-   window_decorations = "RESIZE",
+   window_decorations = "INTEGRATED_BUTTONS",
+   -- window_decorations = "RESIZE",
    -- integrated_title_button_style = "Windows",
-   -- integrated_title_button_style = "Gnome",
+   integrated_title_button_style = "Gnome",
    integrated_title_button_color = "auto",
    integrated_title_button_alignment = "Right",
    initial_cols = 120,
@@ -78,7 +79,7 @@ return {
    },
    window_close_confirmation = 'AlwaysPrompt',
    window_frame = {
-      active_titlebar_bg = '#1d2021',
+      -- active_titlebar_bg = '#1d2021',
       -- inactive_titlebar_bg = '#1d2021',
       -- inactive_titlebar_bg = '#ffffff',
       border_left_width = '0cell',

@@ -27,19 +27,34 @@ local M = {}
 
 M.cells = {}
 
+-- M.colors = {
+--    default = {
+--       bg = "#248C6E",
+--       fg = "#0F2536",
+--    },
+--    is_active = {
+--       bg = "#fb4934",
+--       fg = "#0F2536",
+--    },
+--
+--    hover = {
+--       bg = "#786D22",
+--       fg = "#0F2536",
+--    },
+-- }
 M.colors = {
    default = {
-      bg = "#248C6E",
-      fg = "#0F2536",
+      bg = "#282a36",
+      fg = "#f8f8f2",
    },
    is_active = {
-      bg = "#fb4934",
-      fg = "#0F2536",
+      bg = "#bd93f9",
+      fg = "#282a36",
    },
 
    hover = {
-      bg = "#786D22",
-      fg = "#0F2536",
+      bg = "#6272a4",
+      fg = "#f8f8f2",
    },
 }
 
@@ -136,10 +151,11 @@ M.setup = function()
       end
 
       -- Right padding
-      M.push(bg, fg, { Intensity = "Bold" }, " ")
+      M.push(bg, fg, { Intensity = "Bold" }, "  ")
 
       -- Right semi-circle
       M.push(fg, bg, { Intensity = "Bold" }, GLYPH_SEMI_CIRCLE_RIGHT)
+
 
       return M.cells
    end)
