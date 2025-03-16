@@ -16,8 +16,8 @@ return {
    -- color scheme
    -- colors = colors,
    -- color_scheme = "Gruvbox dark, medium (base16)",
-   -- color_scheme = "Dracula (Official)",
-   color_scheme = "hardhacker",
+   color_scheme = "Dracula (Official)",
+   -- color_scheme = "hardhacker",
 
    -- background
    -- window_background_opacity = 1.00,
@@ -55,7 +55,8 @@ return {
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- cursor
-   default_cursor_style = "BlinkingBlock",
+   -- default_cursor_style = "BlinkingBlock",
+   default_cursor_style = "BlinkingUnderline",
    cursor_blink_ease_in = "Constant",
    cursor_blink_ease_out = "Constant",
    cursor_blink_rate = 700,
