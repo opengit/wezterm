@@ -4,14 +4,6 @@ local colors = require('colors.custom')
 
 return {
    term = "xterm-256color",
-   --
-   -- OpenGL, WebGpu or Software
-   animation_fps = 60,
-   max_fps = 120,
-   front_end = 'OpenGL',
-   -- front_end = 'WebGpu',
-   webgpu_power_preference = 'HighPerformance',
-   --
 
    -- color scheme
    -- colors = colors,
@@ -55,18 +47,12 @@ return {
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- cursor
-   -- default_cursor_style = "BlinkingBlock",
    default_cursor_style = "BlinkingUnderline",
-   cursor_blink_ease_in = "Constant",
-   cursor_blink_ease_out = "Constant",
-   cursor_blink_rate = 700,
+   cursor_thickness = "0.1cell",
 
    -- window
    adjust_window_size_when_changing_font_size = false,
    window_decorations = "INTEGRATED_BUTTONS|RESIZE",
-   -- window_decorations = "INTEGRATED_BUTTONS",
-   -- window_decorations = "RESIZE",
-   -- integrated_title_button_style = "Windows",
    integrated_title_button_style = "Gnome",
    integrated_title_button_color = "auto",
    integrated_title_button_alignment = "Right",
