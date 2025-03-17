@@ -7,9 +7,9 @@ return {
    --
    -- OpenGL, WebGpu or Software
    animation_fps = 60,
-   max_fps = 60,
-   -- front_end = 'OpenGL',
-   front_end = 'WebGpu',
+   max_fps = 120,
+   front_end = 'OpenGL',
+   -- front_end = 'WebGpu',
    webgpu_power_preference = 'HighPerformance',
    --
 
@@ -94,4 +94,15 @@ return {
    },
 
    inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
+   skip_close_confirmation_for_processes_named = {
+      -- 'bash',
+      -- 'sh',
+      -- 'zsh',
+      -- 'fish',
+      -- 'tmux',
+      -- 'nu',
+      -- 'cmd.exe',
+      -- 'pwsh.exe',
+      -- 'powershell.exe',
+   },
 }
