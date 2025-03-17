@@ -67,7 +67,7 @@ return {
    -- window_decorations = "INTEGRATED_BUTTONS",
    -- window_decorations = "RESIZE",
    -- integrated_title_button_style = "Windows",
-   -- integrated_title_button_style = "Gnome",
+   integrated_title_button_style = "Gnome",
    integrated_title_button_color = "auto",
    integrated_title_button_alignment = "Right",
    initial_cols = 120,
