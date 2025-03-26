@@ -8,8 +8,8 @@ return {
    -- color scheme
    -- colors = colors,
    -- color_scheme = "Gruvbox dark, medium (base16)",
-   color_scheme = "Dracula (Official)",
-   -- color_scheme = "hardhacker",
+   -- color_scheme = "Dracula (Official)",
+   color_scheme = "hardhacker",
 
    -- background
    -- window_background_opacity = 1.00,
@@ -32,8 +32,8 @@ return {
    -- },
 
    -- scrollbar
-   enable_scroll_bar = false,
-   -- min_scroll_bar_height = "3cell",
+   enable_scroll_bar = true,
+   min_scroll_bar_height = "0.5cell",
    -- colors = {
    --    scrollbar_thumb = '#34354D',
    -- },
@@ -42,8 +42,8 @@ return {
    enable_tab_bar = true,
    hide_tab_bar_if_only_one_tab = false,
    use_fancy_tab_bar = false,
-   tab_max_width = 36,
-   show_tab_index_in_tab_bar = true,
+   tab_max_width = 48,
+   show_tab_index_in_tab_bar = false,
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- cursor

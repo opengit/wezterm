@@ -6,7 +6,8 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' }
+   -- options.default_prog = { 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' }
+   options.default_prog = { 'D:\\Softwares\\Git\\bin\\bash.exe' }
    options.launch_menu = {
       { label = 'PowerShell 7',       args = { 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' } },
       { label = 'PowerShell Core',    args = { 'pwsh' } },
