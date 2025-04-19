@@ -4,12 +4,15 @@ local colors = require('colors.custom')
 
 return {
    term = "xterm-256color",
+   -- WebGpu, OpenGL, Software
+   front_end = "Software",
+   max_fps = 200,
 
    -- color scheme
    -- colors = colors,
-   -- color_scheme = "Gruvbox dark, medium (base16)",
+   color_scheme = "Gruvbox dark, medium (base16)",
    -- color_scheme = "Dracula (Official)",
-   color_scheme = "hardhacker",
+   -- color_scheme = "hardhacker",
 
    -- background
    -- window_background_opacity = 1.00,
