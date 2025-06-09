@@ -2,8 +2,9 @@ local wezterm = require('wezterm')
 local platform = require('utils.platform')
 
 local font_with_fallback = {
-   { family = 'Sarasa Fixed Slab SC Nerd Font', weight = 'Bold' },
-   { family = 'Sarasa Fixed SC Nerd Font',      weight = 'Bold' },
+   -- { family = 'Sarasa Fixed Slab SC Nerd Font', weight = 'Bold' },
+   -- { family = 'Sarasa Fixed SC Nerd Font',      weight = 'Bold' },
+   { family = 'Sarasa Term SC Nerd Font', weight = 'Bold' },
 }
 local font_size = platform().is_mac and 13 or 9
 
